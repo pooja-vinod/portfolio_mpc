@@ -3,7 +3,11 @@
 
 format: jb-book
 root: intro
+options:
+  numbered: True
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: chapters/final_project/fundamentals
+  sections:
+  - file: chapters/final_project/EAS_503
+# - file: notebooks
+# - file: markdown-notebooks
